@@ -1,0 +1,18 @@
+.board {
+  padding-top: 50px;
+}
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  background-color: #fff;
+  border: 1px solid #999;
+  font-size: 50px;
+  font-weight: bold;
+  height: 80px;
+  width: 80px;
+  margin: -1px;
+  cursor: pointer;
+}
